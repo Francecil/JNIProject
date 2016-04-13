@@ -5,6 +5,7 @@ package com.france.jniproject;
  */
 public class NdkJniUtil {
     public native String getCString();
+
     static {
         System.loadLibrary("gahing");
     }
